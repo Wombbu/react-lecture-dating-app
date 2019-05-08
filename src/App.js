@@ -75,7 +75,7 @@ function App() {
         {loading || !response ? <div style={{flex: 1}} /> : (
           <DateCard
             imageUrl={
-              response.picture.large
+              response.picture.thumbnail
             }
             name={response.name.first}
             age={response.dob.age}
